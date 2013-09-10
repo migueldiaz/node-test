@@ -1,0 +1,10 @@
+{
+  "name": "Sample",
+  "preferGlobal": false,
+  "version": "0.0.5",
+  "description": "a simple upload server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  }
+}

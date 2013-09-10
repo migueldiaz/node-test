@@ -1,0 +1,14 @@
+{
+  "name": "Sample",
+  "preferGlobal": false,
+  "version": "0.0.5",
+  "author": "Autor",
+  "description": "a simple upload server",
+  "contributors": [ 
+    {
+      "name": "Miguel",
+      "email": "yo@gmail.com"
+    } 
+  ],
+ "main": "index.js"
+}

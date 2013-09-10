@@ -11,10 +11,10 @@ function onRequest(request,response){
     route(pathname,handle,response);
 
 	response.writeHead(200,{"content-type": "text/plain"});
-	response.write("Hola desde server detalle ");
+	response.write("Hola desde server ");
 	response.end();
   }
   http.createServer(onRequest).listen(8888);
-  console.log("Servidor arrancado");
+  console.log("Servidor arrancado, puerto 8888");
 }
 exports.start = start;
